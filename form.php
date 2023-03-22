@@ -7,7 +7,6 @@ $tel = $_POST['user_tel'];
 $sujet = $_POST['sujet'];
 $message = $_POST['user_message'];
 
-var_dump($_POST);
 ?>
 
 <!DOCTYPE html>
