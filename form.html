@@ -20,27 +20,27 @@
 
         <div>
             <label for="userName">Votre nom</label>
-            <input type="text" id="userName" name="userName" >
+            <input type="text" id="userName" name="userName" required>
         </div>
 
         <div>
             <label for="userFirstname">Votre prénom</label>
-            <input type="text" id="userFirstname" name="userFirstname" >
+            <input type="text" id="userFirstname" name="userFirstname" required>
         </div>
         <div>
             <div>
                 <label for="userEmail">Votre email</label>
-                <input type="email" id="userEmail" name="userEmail" >
+                <input type="email" id="userEmail" name="userEmail" required >
             </div>
 
         <div>
             <label for="userPhone">Votre numéro de telephone</label>
-            <input type="tel" id="userPhone" name="userPhone" >
+            <input type="tel" id="userPhone" name="userPhone"required >
         </div>
 
         <div>
             <label for="sujet">Sujet :</label>
-            <select name="sujet" id="sujet" name='sujet'>
+            <select name="sujet" id="sujet" name='sujet' required>
                 <option value=""></option>
                 <option value="commande">Commande</option>
                 <option value="livraison">Livraison</option>
@@ -51,7 +51,7 @@
         </div>
         <div>
             <label for="contactMessage">Votre message : </label>
-            <textarea name="contactMessage" id="contactMessage" rows="10" ></textarea>
+            <textarea name="contactMessage" id="contactMessage" rows="10" required></textarea>
         </div>
         <div class="buttonsLine">
             <button type="submit">Envoyer </button>
