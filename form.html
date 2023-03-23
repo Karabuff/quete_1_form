@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<h1>On vous écoute :</h1>
+
+    <form action="/result.php" method="post">
+
+
+        <div>
+            <label for="userName">Votre nom</label>
+            <input type="text" id="userName" name="userName" >
+        </div>
+
+        <div>
+            <label for="userFirstname">Votre prénom</label>
+            <input type="text" id="userFirstname" name="userFirstname" >
+        </div>
+        <div>
+            <div>
+                <label for="userEmail">Votre email</label>
+                <input type="email" id="userEmail" name="userEmail" >
+            </div>
+
+        <div>
+            <label for="userPhone">Votre numéro de telephone</label>
+            <input type="tel" id="userPhone" name="userPhone" >
+        </div>
+
+        <div>
+            <label for="sujet">Sujet :</label>
+            <select name="sujet" id="sujet" name='sujet'>
+                <option value=""></option>
+                <option value="commande">Commande</option>
+                <option value="livraison">Livraison</option>
+                <option value="servoces">Services</option>
+                <option value="autre">Autre...</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="contactMessage">Votre message : </label>
+            <textarea name="contactMessage" id="contactMessage" rows="10" ></textarea>
+        </div>
+        <div class="buttonsLine">
+            <button type="submit">Envoyer </button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

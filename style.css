@@ -1,6 +1,13 @@
-form{
-    margin: 2rem auto;
-    
+form, p{
+    margin: 0 auto ;
+padding: 2rem;
+    border: 1px  solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+h1{
+    margin: 0 auto 2rem ;
+    text-align: center;
 }
 
 form , div,input,textarea{
@@ -10,4 +17,9 @@ margin-top: 0.5rem;
 }
 div{
     margin-top: 3rem;
+}
+.erreur{
+    margin: 0 auto ;
+    padding: 2rem;
+
 }
